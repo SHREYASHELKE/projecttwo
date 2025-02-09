@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="image/logo.png" alt="Yummy Logo">
+            <h1>Yummy </h1><br>
+
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">PAGES</a></li>
+                <li><a href="#">ACCOUNT</a></li>
+                <li><a href="#">BEST OF</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li>
+                
+                <!-- Dropdown for selecting a recipe -->
+                <select id="recipeSelect" onchange="showRecipe()">
+                    <option value="">RECIPE</option>
+                    <option value="Pasta">PASTA</option>
+                    <option value="Pizza">PIZZA</option>
+                    <option value="Salad">SALAD</option>
+                    <option value="Biryani">BIRYANI</option>
+                </select>
+                
+                <!-- Area to display the selected recipe -->
+                <div id="recipeDetails" style="margin-top: 20px;"></div>
+</li>
+                
+            </ul>
+
+
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="main-recipe">
+            <img src="image/mainrecipe image.jpg">
+
+            <h4>"Unicorn Poop" Rainbow Donuts</h4>
+            <h2>Rise and shine it's donut time</h2>
+        </section>
+
+        <aside class="sidebar">
+            <h3>⭐ HELLO FOODIES!<BR>WELCOME TO SHREYA'S GOOD BLOG</h3>
+
+            <ul>
+                <li><strong>Introduction:</strong>"Welcome to my food 🍜 blog! Here, you'll find a unique blend of
+                    traditional recipes with a modern twist."</li>
+                <li><strong>Passion for food:</strong>"I'm a passionate foodie who loves exploring new flavors and
+                    experimenting with different cuisines."🍝🌮</li>
+                <li><strong>Content variety</strong>"From easy-to-make recipes and restaurant reviews to street food
+                    adventures and healthy eating tips, there's something
+                    for everyone."❤️</li>
+                <li><strong>Interactive:</strong>"your feedback and suggestions are always welocme.Let's make
+                    cookingmore fun and exciting together!"</li>
+            </ul>
+        </aside>
+
+        <section class="grid-recipe">
+            <article>
+                <button id="btnReapear">Easy</button>
+                <img src="image/recipe image1.jpg" alt="Recipe 1">
+                <h4>Company</h4>
+                <h3>"The best burgers are like life — messy and topped with bacon" 🍔🥞</h3>
+            </article>
+            <article>
+                <button id="btnReapear">Easy</button>
+                <img src="image/recipe image2.jpeg" alt="Recipe 2">
+                <h4>South Indian recipe</h4>
+                <h3>Dosa adventures begin with a crispy edge! 🥞 #DosaLove</h3>
+            </article>
+            <article>
+                <button id="btnReapear">Easy</button>
+                <img src="image/recipe image3.jpeg" alt="Recipe 3">
+                <h4>Broccoli</h4>
+                <h3>Are you ready to brocc?! 🤘🥦</h3>
+            </article>
+        </section>
+        <section class="grid-recipe">
+            <article>
+                <button id="btnReapear">Easy</button>
+                <img src="image/recipe image4.jpeg" alt="Article 1">
+                <h4>Hunger Pizza</h4>
+                <h3>When hunger strikes, pizza's always the answer 😋🍕</h3>
+            </article>
+            <article>
+                <button id="btnReapear">Easy</button>
+                <img src="image/recipe image5.jpeg" alt="Article 2">
+                <h4>Delicious Pasta</h4>
+                <h3>Pasta nights are the best nights. 🌙🍝</h3>
+            </article>
+            <article>
+                <button id="btnReapear">Easy</button>
+                <img src="image/recipe image6.jpeg" alt="Article 1">
+                <h4>French Fries</h4>
+                <h3>Exercise? I thought you said extra fries 🏋️‍♂️🍟
+                </h3>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <img src="image/banner image1.jpeg" height="200px" width="200px">
+            <img src="image/banner image2.jpeg" height="200px" width="200px">
+            <img src="image/banner image3.jpeg" height="200px" width="200px">
+            <img src="image/banner image4.jpg" height="200px" width="200px">
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
